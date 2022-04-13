@@ -1,0 +1,69 @@
+<html>
+<head>
+<title>
+</title>
+
+
+    
+ 
+    </head>
+    <body>
+        <%- include('partials/nav') %>
+        <center>
+
+            <div id="main-container-sign-up">
+        
+                <div class="container">
+            <form id="form">
+                <h1>Registration</h1>
+                <div class="input-control">
+                    <label for="username">Username</label>
+                    <input id="username" name="username" type="text">
+                    <div class="error"></div>
+                </div>
+                <div class="input-control">
+                    <label for="fname">first name</label>
+                    <input id="fname" name="firstname" type="text">
+                    <div class="error"></div>
+                </div>
+                <div class="input-control">
+                    <label for="lname">last name</label>
+                    <input id="name" name="lastname" type="text">
+                    <div class="error"></div>
+                </div>
+                <div class="input-control">
+                    <label for="email">Email</label>
+                    <input id="email" name="email" type="text">
+                    <div class="error"></div>
+                </div>
+                <div class="input-control">
+                    <label for="password">Password</label>
+                    <input id="password"name="password" type="password">
+                    <div class="error"></div>
+                </div>
+                <div class="input-control">
+                    <label for="passwordvalid">Password again</label>
+                    <input id="passwordvalid"name="passwordvalid" type="password">
+                    <div class="error"></div>
+                    <br>
+                    <button id="submit" type="submit">regiser</button>
+                </div>
+            </div>
+        </div>
+           
+      
+                     
+    
+    
+           
+        
+
+
+         <%- include('partials/footer') %>
+        </center>
+                
+    </div>
+    </body>
+    <script src="/Server/vald.js"></script>
+
+</html>
