@@ -36,9 +36,9 @@ app.use ("/",express.static('static')); // set static folder
 //render the intro page [ the first page the user see ]
 app.get('/', (req, res) => {
     res.render  ('intro'), {
-        title: 'Intro',
-        messege: 'Welcome to the intro page'
         };
+      
+    
 });
 //render the loginPage
 app.get('/sign-in', (req, res) => {
@@ -54,7 +54,7 @@ app.get('/sign-in', (req, res) => {
         }
     }
     );
-    
+
     
 });
 //render the registerPage
